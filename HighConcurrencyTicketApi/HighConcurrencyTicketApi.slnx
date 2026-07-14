@@ -1,0 +1,5 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/HighConcurrencyTicketApi.Api/HighConcurrencyTicketApi.Api.csproj" />
+  </Folder>
+</Solution>

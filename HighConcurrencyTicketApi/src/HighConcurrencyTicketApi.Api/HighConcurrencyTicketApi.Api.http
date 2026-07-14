@@ -1,0 +1,6 @@
+@HighConcurrencyTicketApi.Api_HostAddress = http://localhost:5269
+
+GET {{HighConcurrencyTicketApi.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
