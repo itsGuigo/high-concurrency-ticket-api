@@ -1,5 +1,11 @@
 <Solution>
   <Folder Name="/src/">
+    <Project Path="HighConcurrencyTicketApi.Application/HighConcurrencyTicketApi.Application.csproj" Id="dd308bbf-cf82-4fe3-9442-d3f1a14d83e4" />
+    <Project Path="HighConcurrencyTicketApi.Domain/HighConcurrencyTicketApi.Domain.csproj" Id="acae1527-629a-4ece-9b18-369f7db24b60" />
+    <Project Path="HighConcurrencyTicketApi.Infrastructure/HighConcurrencyTicketApi.Infrastructure.csproj" Id="08494a90-910d-435a-bded-6e30984a7efe" />
     <Project Path="src/HighConcurrencyTicketApi.Api/HighConcurrencyTicketApi.Api.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="HighConcurrencyTicketApi.UnitTests/HighConcurrencyTicketApi.UnitTests.csproj" Id="411ad5c7-5773-4d94-ad47-b6a3c0367d24" />
   </Folder>
 </Solution>
