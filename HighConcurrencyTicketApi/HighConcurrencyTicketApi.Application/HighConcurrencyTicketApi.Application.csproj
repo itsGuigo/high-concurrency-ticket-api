@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\HighConcurrencyTicketApi.Domain\HighConcurrencyTicketApi.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

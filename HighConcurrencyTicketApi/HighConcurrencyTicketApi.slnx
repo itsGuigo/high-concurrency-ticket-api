@@ -1,4 +1,8 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+    <File Path="README.md" />
+  </Folder>
   <Folder Name="/src/">
     <Project Path="HighConcurrencyTicketApi.Application/HighConcurrencyTicketApi.Application.csproj" Id="dd308bbf-cf82-4fe3-9442-d3f1a14d83e4" />
     <Project Path="HighConcurrencyTicketApi.Domain/HighConcurrencyTicketApi.Domain.csproj" Id="acae1527-629a-4ece-9b18-369f7db24b60" />
