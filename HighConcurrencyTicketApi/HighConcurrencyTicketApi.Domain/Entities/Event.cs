@@ -34,5 +34,15 @@
             AvailableTickets = totalTickets;
             TicketPrice = ticketPrice;
         }
+
+        public void ReserveTicket()
+        {
+            if (AvailableTickets <= 0)
+            {
+                throw new InvalidOperationException("No tickets available.");
+            }
+
+            AvailableTickets--;
+        }
     }
 }
