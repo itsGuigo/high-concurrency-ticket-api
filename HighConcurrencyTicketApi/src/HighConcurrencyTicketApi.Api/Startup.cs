@@ -1,4 +1,7 @@
-﻿namespace HighConcurrencyTicketApi.Api;
+﻿using HighConcurrencyTicketApi.Application.DependencyInjection;
+using HighConcurrencyTicketApi.Infrastructure.DepedencyInjection;
+
+namespace HighConcurrencyTicketApi.Api;
 
 public class Startup
 {
@@ -12,14 +15,10 @@ public class Startup
     public void ConfigureServices(IServiceCollection services)
     {
         services.AddControllers();
-
         services.AddEndpointsApiExplorer();
-
         services.AddSwaggerGen();
-
-        //TO DO: Add DI
-        //services.AddApplication();
-        //services.AddInfrastructure(Configuration);
+        services.AddApplication();
+        services.AddInfrastructure(Configuration);
     }
 
     public void Configure(WebApplication app, IWebHostEnvironment environment)
@@ -31,9 +30,7 @@ public class Startup
         }
 
         app.UseHttpsRedirection();
-
         app.UseAuthorization();
-
         app.MapControllers();
     }
 }

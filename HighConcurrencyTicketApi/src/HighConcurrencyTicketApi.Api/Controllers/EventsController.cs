@@ -33,7 +33,7 @@ namespace HighConcurrencyTicketApi.Api.Controllers
 
             if (!response.Success)
             {
-                return BadRequest(response.ErrorMessages);
+                return BadRequest(response);
             }
 
             return Created();
@@ -46,7 +46,7 @@ namespace HighConcurrencyTicketApi.Api.Controllers
 
             if (!response.Success) 
             {
-                return BadRequest(response.ErrorMessages);
+                return BadRequest(response);
             }
 
             return Ok(response);
@@ -65,7 +65,7 @@ namespace HighConcurrencyTicketApi.Api.Controllers
 
             if (!response.Success)
             {
-                return BadRequest(response.ErrorMessages);
+                return BadRequest(response);
             }
 
             return Ok(response);
